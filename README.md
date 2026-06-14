@@ -30,7 +30,12 @@ A simple and intuitive Graphical User Interface (GUI) calculator built using Pyt
    ```
    *(Note: The actual folder name depends on your local checkout, here it assumes the root of the project).*
 
-3. Run the calculator application:
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the calculator application:
    ```bash
    python Calculator/src/calculator.py
    ```
@@ -39,12 +44,13 @@ A simple and intuitive Graphical User Interface (GUI) calculator built using Pyt
 ## 📂 Project Structure
 
 ```text
-GameDevelop/
+.
 ├── Calculator/
 │   └── src/
 │       ├── assets/
 │       │   └── my_logo.png    # App window icon
 │       └── calculator.py      # Main calculator application code
+├── requirements.txt
 └── README.md
 ```
 
